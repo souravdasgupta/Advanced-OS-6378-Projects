@@ -32,5 +32,5 @@ $./server
 
 ## Important points to remember
 
-1. Each execution of the servers and the clients will generate two txt files in the root folder (the folder where client is present): ipaddrs.txt and serv_addrs.txt. Prior to next execution, these two files must be manually deleted.
+1. Each execution of the servers and the clients will generate two txt files in the root folder (the folder where client is present): ipaddrs.txt and serv_ipaddrs.txt. Prior to next execution, these two files must be manually deleted.
 2. Servers must be executed first, i.e, before the execution of clients. And the clients must be executed in order. This means, first ./client 1 must run, then ./client 2 (on a different machine ofcourse), then ./client 3 and so on.
