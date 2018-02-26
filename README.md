@@ -12,8 +12,9 @@ Similarly for client:
 $cd client/
 $make client
 
-This will generate the executables in the respective folders.
+This will generate the executables in the respective folders. For the sake of convinience, the executables are already built in their respective folders. In order to clean them,  go the respective folder and give the following command:
 
+$make clean
 
 ## Steps to Run the program:
 After the exectables are built. The servers and the client exectables are to be copied to a total of 8 different machines (5 clients and 3 servers):
