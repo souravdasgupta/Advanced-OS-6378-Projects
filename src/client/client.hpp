@@ -23,8 +23,8 @@
 #define max(a,b) ((a) > (b) ? (a) : (b))
 #define min(a,b) ((a) < (b) ? (a) : (b))
 
-#define NUM_CLIENTS 3
-#define NUM_SERVERS 2
+#define NUM_CLIENTS 5
+#define NUM_SERVERS 3
 #define MAX_Q_LEN NUM_CLIENTS*3
 
 #define REQ_TYPE_READ 0
